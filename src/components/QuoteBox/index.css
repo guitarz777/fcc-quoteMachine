@@ -1,0 +1,54 @@
+#quote-box{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: rgba(153, 56, 226, .75);
+  height: auto;
+  width: 50vw;
+  margin-top: 25px;
+}
+
+#text{
+  color: rgb(237, 217, 221);
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+#author{
+  color: white;
+  padding-right: 5vh;
+  text-align: right;
+}
+
+#button-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#loader{
+  margin: auto;
+}
+
+#new-quote{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+  color: rgb(142, 182, 241);
+}
+
+#butto{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+  color: rgb(142, 182, 241);
+}
+
+#tweet-quote{
+  text-decoration: none;
+  color: rgb(142, 182, 241);
+  font-size: 18px;
+}
